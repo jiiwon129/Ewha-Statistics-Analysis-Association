@@ -50,4 +50,6 @@ Logistic Regression, SGDClassifier, LightGBM, CatBoost, XGBoost, Random Forest �
 
 `Python` `pandas` `NLTK` `TextBlob` `textstat` `scikit-learn` `XGBoost` `LightGBM` `CatBoost`
 
-> 원본 프로젝트 노트북은 정리본을 확인한 뒤 이 폴더에 추가할 예정입니다.
+## Notebook
+
+- [`author_classification.ipynb`](./author_classification.ipynb) — EDA, 문체 파생변수, TF-IDF/Count 기반 모델링 및 stacking 실험
