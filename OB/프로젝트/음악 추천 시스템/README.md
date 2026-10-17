@@ -58,4 +58,6 @@ CatBoost가 가장 높은 leaderboard 성능을 기록해 최종 모델로 선�
 
 `Python` `pandas` `scikit-learn` `CatBoost` `XGBoost` `LightGBM`
 
-> 최종 정리 노트북은 코드 확인 후 이 폴더에 추가할 예정입니다.
+## Notebook
+
+- [`kkbox_music_recommendation.ipynb`](./kkbox_music_recommendation.ipynb) — 최종 프로젝트 모델링 코드 정리본
