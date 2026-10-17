@@ -1,4 +1,4 @@
-# ESAA
+# ESAA 이화통계분석학회
 
 > 이화통계분석학회(Ewha Statistics Analysis Association) 활동 중 수행한 스터디, 과제, 미니프로젝트, 경진대회 코드를 정리한 아카이브
 
