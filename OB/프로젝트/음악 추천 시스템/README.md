@@ -2,7 +2,7 @@
 
 ## Overview
 
-WSDM KKBox Music Recommendation Challenge 데이터를 활용해 사용자가 특정 곡을 다시 들을 가능성(`target`)을 예측한 프로젝트입니다.
+WSDM KKBox Music Recommendation Challenge 데이터를 활용해 사용자가 특정 곡을 다시 들을 가능성(`target`)을 예측한 프로젝트
 
 - Task: Binary classification / implicit recommendation
 - Metric: AUC
@@ -38,8 +38,6 @@ WSDM KKBox Music Recommendation Challenge 데이터를 활용해 사용자가 �
 | XGBoost | 0.6636 | 0.6669 |
 | LightGBM | 0.6702 | 0.6743 |
 | **CatBoost** | **0.6897** | **0.6911** |
-
-CatBoost가 가장 높은 leaderboard 성능을 기록해 최종 모델로 선택했습니다. Stacking도 추가로 시도했지만 단일 CatBoost보다 유의미한 개선은 확인되지 않았습니다.
 
 ## My Contribution
 
