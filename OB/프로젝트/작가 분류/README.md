@@ -2,7 +2,7 @@
 
 ## Overview
 
-문장 텍스트의 표현 방식과 문체적 특징을 이용해 **5명의 작가를 분류**한 multi-class text classification 프로젝트입니다.
+문장 텍스트의 표현 방식과 문체적 특징을 이용해 **5명의 작가를 분류**한 multi-class text classification 프로젝트
 
 - Train: 약 54.9K 문장
 - Test: 약 19.6K 문장
@@ -11,7 +11,7 @@
 
 ## Approach
 
-단순 텍스트 벡터화뿐 아니라 작가별 문체 차이를 나타낼 수 있도록 수치형 특징을 직접 설계했습니다.
+단순 텍스트 벡터화뿐 아니라 작가별 문체 차이를 나타낼 수 있도록 수치형 특징을 직접 설계
 
 ### Engineered Features
 - 문자 수, 단어 수, 평균 단어 길이
@@ -32,9 +32,9 @@
 
 ## Modeling
 
-Logistic Regression, SGDClassifier, LightGBM, CatBoost, XGBoost, Random Forest 등을 비교하고, 여러 base model의 **클래스별 예측 확률을 meta-feature로 사용하는 stacking**도 실험했습니다.
+Logistic Regression, SGDClassifier, LightGBM, CatBoost, XGBoost, Random Forest 등을 비교하고, 여러 base model의 **클래스별 예측 확률을 meta-feature로 사용하는 stacking** 실험
 
-프로젝트 회의 기록상 단일 모델 비교에서는 Logistic Regression과 LightGBM 계열이 상대적으로 낮은 Log Loss를 보였고, 후반에는 TF-IDF/Count 기반 예측 확률을 결합하는 stacking을 추가로 실험했습니다.
+단일 모델 비교에서는 Logistic Regression과 LightGBM 계열이 상대적으로 낮은 Log Loss를 보였고, 후반에는 TF-IDF/Count 기반 예측 확률을 결합하는 stacking을 추가 실험
 
 ## My Contribution
 
